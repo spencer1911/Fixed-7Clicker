@@ -6,8 +6,9 @@
 Also, the original source is (obviously) from Ruffian, many years ago he did this man.
 
 **Discords: (if you want support)**<br>
-__joaoshiozo#3478__<br>
-__brazilman#5465__
+__**joaoshiozo#3478**__<br>
+__**brazilman#5465**__
 
-__*If neither of us answer you its because we're busy.*__
+*If neither of us answer you its because we're busy.*
+
 
