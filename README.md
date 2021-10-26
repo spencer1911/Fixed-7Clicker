@@ -6,8 +6,8 @@
 Also, the original source is (obviously) from Ruffian, many years ago he did this man.
 
 **Discords: (if you want support)**<br>
-__**joaoshiozo#3478**__<br>
-__**brazilman#5465**__
+<ins>__**joaoshiozo#3478**__</ins><br>
+<ins>__**brazilman#5465**__</ins>
 
 *If neither of us answer you its because we're busy.*
 
