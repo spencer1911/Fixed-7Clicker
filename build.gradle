@@ -1,0 +1,55 @@
+buildscript {
+    ext.kotlin_version = '1.6.0-RC'
+    repositories {
+        mavenCentral()
+        maven { url = 'https://plugins.gradle.org/m2/' }
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:5.2.0'
+    }
+}
+
+apply plugin: "java"
+apply plugin: 'com.github.johnrengelman.shadow'
+
+group = project_Group
+version = project_Version
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://repo1.maven.org/maven2/'
+        metadataSources {
+             artifact() //Look directly for artifact
+        }
+    }
+}
+
+dependencies {
+	compile 'org.pushing-pixels:trident:1.2'
+	compile 'com.github.kwhat:jnativehook:2.2.0'
+	compile 'com.apple:AppleJavaExtensions:1.4'
+}
+
+shadowJar {
+    dependencies {
+        include(dependency('org.pushing-pixels:trident:1.2'))
+        include(dependency('com.github.kwhat:jnativehook:2.2.0'))
+        include(dependency('com.apple:AppleJavaExtensions:1.4'))
+    }
+    exclude 'dummyThing'
+    exclude 'LICENSE.txt'
+    exclude 'LICENSE'
+    classifier = 'release'
+}
+
+jar {
+    manifest {
+       attributes(
+                "Manifest-Version": 1.0,
+                "Main-Class": "com.ruffian7.sevenclicker.AutoClicker"
+        )
+    }
+}
+
+build.dependsOn(shadowJar)
