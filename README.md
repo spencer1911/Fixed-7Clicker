@@ -7,7 +7,7 @@ Also, the original source is (obviously) from **@Ruffian7**, many years ago he d
 
 **Discords: (if you want support)**<br>
 <ins>__**joaoshiozo#3478**__</ins><br>
-<ins>__**storm772#5465**__</ins>
+<ins>__**i dont use discord anymore#69420**__</ins>
 
 *If neither of us answer you its because we're busy.*
 
